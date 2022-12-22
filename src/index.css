@@ -1,5 +1,10 @@
 body {
+  
   margin: 0;
+  background-image: url("https://img.freepik.com/free-photo/notebook-pen-white-background_1232-2048.jpg?w=2000");
+  background-repeat:no-repeat ;
+  background-size: cover;
+  height: cover;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +15,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+i{
+cursor: pointer;
 }
