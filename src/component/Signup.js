@@ -34,7 +34,7 @@ const Signup = (props) => {
     }
   };
   return (
-    <div className="container">
+    <div className="container img">
       <div className="container px-5">
         <h2>Create a Account to Use iNotebook</h2>
 

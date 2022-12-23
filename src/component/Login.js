@@ -29,7 +29,7 @@ props.showAlert("Logged In successfully" , "success")
 }
   }
     return (
-      <div className='container'>
+      <div className='container img'>
     <div className="container  px-5">
       <h2>Login to Use iNotebook</h2>
     <form onSubmit={summitform}>

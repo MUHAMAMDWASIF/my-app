@@ -27,6 +27,13 @@
 .App-link {
   color: #61dafb;
 }
+.screen{
+  zoom: 75%;
+}
+.img{
+  zoom: 80%;
+  height: 700px;
+}
 
 @keyframes App-logo-spin {
   from {

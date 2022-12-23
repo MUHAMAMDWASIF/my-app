@@ -22,7 +22,7 @@ const Homebody = (props) => {
   };
 
   return (
-    <div className="container">
+    <div className="container screen">
       <div className="container px-5">
         <h2>Add a Note</h2>
         <form>
