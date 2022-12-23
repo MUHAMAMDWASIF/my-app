@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import Notecontext from './Notecontext'
 
-export const apiURL = "https://dead-plum-spider-hat.cyclic.app/"
+// export const apiURL = "https://dead-plum-spider-hat.cyclic.app/"
+export const apiURL = "https://dead-plum-spider-hat.cyclic.app"
+
 
 const Notevalue = (props) => {
  const notesint=[]
