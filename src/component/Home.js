@@ -4,7 +4,7 @@ import Homebody from './Homebody'
 const Home = (props) => {
   const {showAlert} = props
   return (
-    <div>
+    <div >
    <Homebody showAlert={showAlert} />
     </div>
   )

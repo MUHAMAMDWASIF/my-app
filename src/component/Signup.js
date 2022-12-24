@@ -16,6 +16,12 @@ const Signup = (props) => {
   const summitform = async (e) => {
     e.preventDefault();
     const { name, email, password, cpassword } = signup;
+    if (password !== cpassword) {
+      
+      props.showAlert("Your Password is not match", "danger");
+      
+    }
+    else { 
     const response = await fetch(`${apiURL}/api/auth/createuser`, {
       method: "POST",
       headers: {
@@ -24,9 +30,7 @@ const Signup = (props) => {
       body: JSON.stringify({ name, email, password }),
     });
     const json = await response.json();
-    if (password !== cpassword) {
-      props.showAlert("Your Password is not match", "danger");
-    } else {
+    
       localStorage.setItem("token", json.authtoken);
       console.log(json);
       navigation("/");
